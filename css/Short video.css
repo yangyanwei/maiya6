@@ -1,0 +1,242 @@
+body{
+    margin:0;
+    padding: 0;
+    font-size: 12px;
+    font-family: "STXihei";
+}
+ul,li,p,h1,h2,h3,h4,h5,h6{
+    margin: 0;padding: 0;
+    list-style: none;
+    font-weight:normal;
+}
+a{
+    text-decoration: none;
+}
+*{
+    box-sizing:border-box;
+}
+.win{
+    width: 100%;
+    height:44px ;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.con{
+    width:560px;
+    height: 42px;
+    margin: 0 8px;
+}
+.clear{
+    clear: both;
+}
+.but{
+    height:44px;
+    width:60px;
+    float:left;
+    font-size: 14px;
+    font-family: "STXihei";
+    color:#4e4e4e;
+    text-align: center;
+    line-height: 44px;
+    background:#ffffff;
+    margin: 0 5px;
+}
+.but a{
+    color: #4e4e4e;
+}
+.buts{
+    color:#fed141;
+    border-bottom:2px solid #fed141;
+}
+/*.but:hover{*/
+    /*color:#fed141;*/
+    /*border-bottom:2px solid #fed141;*/
+/*}*/
+
+.sc-find{
+    width:100%;
+    /*height:40px;*/
+    background-color: #e2e2e2;
+    text-align: center;
+
+}
+.sc-fd{
+    height:36px;
+    width:95%;
+    border-radius: 30px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 36px;
+    display:inline-block;
+    margin:8px 0;
+}
+.sc-sou {
+    width: 16px;
+    height:16px;
+    display:inline-block;
+    /*margin-right: 5px;*/
+    background:url("../images/sousuo.png") no-repeat center center;
+    background-size: cover;
+    margin-bottom: -4px;
+}
+.sc-suo {
+    height: 16px;
+    font-size: 16px;
+    color:#9c9c9c;
+    display:inline-block;
+
+}
+/*结束*/
+
+.table{
+    width: 100%;
+}
+.menu1{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    overflow-x: scroll;
+    margin-top: 8px;
+}
+.contain{
+    width:580px;
+    height: 42px;
+    margin: 0 8px;
+
+}
+.contain2{
+    width:370px;
+    height: 42px;
+    margin: 0 8px;
+}
+.cnv{
+    height:44px;
+    width:60px;
+    float:left;
+    font-size: 14px;
+    font-family: "STXihei";
+    color:#9c9c9c;
+    text-align: center;
+    line-height: 44px;
+
+    margin: 0 5px;
+}
+.cnv2{
+    width: 80px;
+}
+.cnv:hover{
+    color: #4e4e4e;
+    background:#ececec;
+    border-radius: 20px;
+}
+
+.xian{
+    width: 100%;height: 2px;
+    background: #ececec;
+    margin-top: 8px;
+}
+
+/*搜索*/
+.sc-con{
+    margin-top: 10px;
+    background-color: #ffffff;
+}
+
+.sc-head .sou{
+    display: inline-block;
+    height:36px;
+    width:100%;
+    color:#4e4e4e;
+    font-size: 32px;
+}
+
+.sc-head .sou .ye-con{
+    display: inline-block;
+    margin-left: 26px;
+    margin-right: 16px;
+    width: 14px;
+    height: 24px;
+    margin-bottom: -6px;
+    background-color: #F5CF00;
+    border-radius: 6px;
+
+}
+.sc-head .sou .hot{
+    display:inline-block;
+    font-family: STXihei;
+    font-size: 22px;
+}
+
+
+
+/*图文列表*/
+.m-list{
+    padding: 0 13px;
+}
+.m-list ul{
+    margin-left: -8px;
+}
+.m-list .hot-list{
+    margin-left: 8px;
+}
+.hot-list a{
+    display: inline-block;
+}
+.hot-pic{
+    background-size: 100% 100%;
+
+}
+.ul-hot li{
+    width: 50%;
+    float: left;
+}
+.hot-pic img{
+    display: block;
+    border: none;
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+.hot-list h3{
+    width:100%;
+    font-size:16px;
+    color:#4E4E4E;
+    margin-top: 8px
+}
+.hot-list h4{
+    width:100%;
+    font-size: 14px;
+    color:#9c9c9c;
+    margin-top: 6px ;
+    margin-bottom: 12px;
+}
+.tiao{
+    width: 100%;height: 10px;
+    background-color: #e2e2e2;
+}
+/*热门*/
+.hot-topic{
+    width: 100%;padding: 0;
+    margin-bottom: 10px;
+}
+.hot-topic img{
+    width: 100%;height: auto;
+    display: block;
+}
+.hot-title{
+    padding: 0 13px;
+}
+.hot-title h3{
+    width:100%;
+    font-size: 20px;
+    color:#4E4E4E;
+    margin-top: 16px
+}
+.hot-title h4{
+    width:100%;
+    font-size: 18px;
+    color:#9c9c9c;
+    margin-top: 11px ;
+    margin-bottom: 16px;
+}

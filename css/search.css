@@ -1,0 +1,101 @@
+body{
+    margin:0;
+    padding: 0;
+    font-size: 12px;
+    font-family: "STXihei";
+    background: #e2e2e2;
+}
+ul,li,p,h1,h2,h3,h4,h5,h6{
+    margin: 0;padding: 0;
+    list-style: none;
+    font-weight:normal;
+}
+.clear{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+*{
+    box-sizing:border-box;
+}
+/*搜索*/
+.clear{
+    clear: both;
+}
+.search{
+    width: 100%;height: auto;
+    background: #e2e2e2;
+}
+.his{
+    margin: 0 50px;
+}
+.search-k{
+    width: 85%;
+    height: 92px;
+    margin: 20px 0;
+    background: #fff;
+    border-radius: 50px;
+    float: left;
+    position: relative;
+}
+.search-k-s{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    left: 38px;
+    top: 20px;
+    background: url("../images/sousuo.png") no-repeat center center;
+    background-size: cover;
+    margin-bottom: -4px;
+}
+.search-k-x{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    right: 38px;
+    top: 20px;
+    background: url("../images/shanchu.png") no-repeat center center;
+    background-size: cover;
+    margin-bottom: -4px;
+}
+.search-k input{
+    display: block;
+    width: 80%;
+    height: 92px;
+    background: #fff;
+    border-radius: 50px;
+    border: none;
+    font-size: 38px;
+    color: #4e4e4e;
+    margin-left: 100px;
+    outline: none;
+}
+.search-q{
+    width: 15%;
+    height: 132px;
+    line-height: 132px;
+    text-align: right;
+    font-size: 44px;
+    float: left;
+    color: #4e4e4e;
+}
+
+.hot{
+    width: 100%;
+    max-height:694px ;
+    background: #fff;
+    overflow: hidden;
+}
+
+.hot-sou{
+    width: 100%;
+    height: 116px;
+    border-bottom: 3px solid #e2e2e2;
+    color:rgb(160,160,156) ;
+    line-height: 116px;
+    font-size: 39px;
+    padding-left: 82px;
+}
