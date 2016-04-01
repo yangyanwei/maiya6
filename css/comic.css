@@ -77,10 +77,11 @@ a{
     /*margin-right: 5px;*/
     background:url("../images/sousuo.png") no-repeat center center;
     background-size: cover;
-    margin-bottom: -4px;
+    margin-bottom: -2px;
 }
 .sc-suo {
-    height: 16px;
+    height: 36px;
+     line-height: 36px;
     font-size: 16px;
     color:#9c9c9c;
     display:inline-block;
