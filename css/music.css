@@ -109,7 +109,8 @@ a{
     height: 42px;
     margin: 0 8px;
 }
-.cnv{
+
+.cnv,.cnv1{
     height:44px;
     width:60px;
     float:left;
@@ -118,21 +119,11 @@ a{
     color:#9c9c9c;
     text-align: center;
     line-height: 44px;
-
     margin: 0 5px;
 }
-.cnv2{
+.cnv2,.cnv3{
     width: 80px;
-}
-.cnv:hover{
-    color: #4e4e4e;
-    background:#ececec;
-    border-radius: 20px;
-}
-
-.cnv1{
     height:44px;
-    width:60px;
     float:left;
     font-size: 14px;
     font-family: "STXihei";
@@ -140,11 +131,6 @@ a{
     text-align: center;
     line-height: 44px;
     margin: 0 5px;
-}
-.cnv1:hover{
-    color: #4e4e4e;
-    background:#ececec;
-    border-radius: 20px;
 }
 
 .xian{
