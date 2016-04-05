@@ -110,7 +110,7 @@ a{
     height: 42px;
     margin: 0 8px;
 }
-.cnv,.cnv1{
+.cnv{
     height:44px;
     width:60px;
     float:left;
@@ -121,7 +121,18 @@ a{
     line-height: 44px;
     margin: 0 5px;
 }
-.cnv2,.cnv3{
+.cnv1{
+     height:44px;
+    width:60px;
+    float:left;
+    font-size: 14px;
+    font-family: "STXihei";
+    color:#9c9c9c;
+    text-align: center;
+    line-height: 44px;
+    margin: 0 5px;
+}
+.cnv2{
     width: 80px;
     height:44px;
     float:left;
@@ -131,6 +142,17 @@ a{
     text-align: center;
     line-height: 44px;
     margin: 0 5px;
+}
+.cnv3{
+    width: 80px;
+    height:44px;
+    float:left;
+    font-size: 14px;
+    font-family: "STXihei";
+    color:#9c9c9c;
+    text-align: center;
+    line-height: 44px;
+    margin: 0 5px; 
 }
 
 .xian{
