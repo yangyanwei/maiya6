@@ -339,12 +339,25 @@ a{
 }
 @media screen and (max-width: 360px) {
     .hot-pic{
-        width: 146px;
+        width: 142px;
         height: 98px;
     }
     .hot-pic img{
         border-radius: 16px;
     }
+    .hot-list h3{
+        font-size: 16px;
+    }
+    .hot-list h4{
+        font-size: 14px;
+    }
+    .region,.school{
+        font-size: 16px!important;
+    }
+    span input{
+        font-size: 16px!important;
+    }
+
 }
 
 .hot-pic img{
