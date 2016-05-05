@@ -339,8 +339,8 @@ a{
 }
 @media screen and (max-width: 360px) {
     .hot-pic{
-        width: 164px;
-        height: 110px;
+        width: 142px;
+        height: 95px;
     }
     .hot-pic img{
         border-radius: 16px;
