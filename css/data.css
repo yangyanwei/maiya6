@@ -339,7 +339,7 @@ a{
 }
 @media screen and (max-width: 360px) {
     .hot-pic{
-        width: 110px;
+        width: 130px;
         height: 95px;
     }
     .hot-pic img{
