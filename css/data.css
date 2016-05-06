@@ -319,7 +319,7 @@ a{
         border-radius: 18px;
     }
 }
-@media screen and (min-width: 414px) and (max-width: 435px) {
+@media screen and (min-width: 410px) and (max-width: 435px) {
     .hot-pic{
         width: 184px;
         height: 133px;
@@ -328,7 +328,7 @@ a{
         border-radius: 18px;
     }
 }
-@media screen and (min-width: 360px) and (max-width: 414px) {
+@media screen and (min-width: 360px) and (max-width: 410px) {
     .hot-pic{
         width: 168px;
         height: 113px;
@@ -337,10 +337,10 @@ a{
         border-radius: 18px;
     }
 }
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 321px) and (max-width: 360px) {
     .hot-pic{
-        width: 142px;
-        height: 98px;
+        width: 160px;
+        height: 112px;
     }
     .hot-pic img{
         border-radius: 16px;
@@ -359,7 +359,15 @@ a{
     }
 
 }
-
+@media screen and (max-width: 321px) {
+    .hot-pic{
+        width: 120px;
+        height: 90px;
+    }
+    .hot-pic img{
+        border-radius: 16px;
+    }
+}
 .hot-pic img{
     display:block;
     width: 100%;
