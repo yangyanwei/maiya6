@@ -361,13 +361,14 @@ a{
 }
 @media screen and (max-width: 321px) {
     .hot-pic{
-        width: 120px;
-        height: 90px;
+        width: 140px;
+        height: 93px;
     }
     .hot-pic img{
         border-radius: 16px;
     }
 }
+
 .hot-pic img{
     display:block;
     width: 100%;
